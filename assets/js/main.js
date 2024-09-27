@@ -14,18 +14,17 @@ window.addEventListener("DOMContentLoaded", () =>{
 
         //hover
 
-btn.addEventListener("mouseover", () => {
-    btn.style.backgroundColor = "darkred";
-  });
+        btn.addEventListener("mouseover", () => {
+          btn.style.backgroundColor = "darkred";
+     });
 
-  btn.addEventListener("mouseout", () => {
-    btn.style.backgroundColor = "transparent";
-  });
-
-
-    });
+        btn.addEventListener("mouseout", () => {
+          btn.style.backgroundColor = "transparent";
+     });
 
 
-
+      });
 
 });
+
+
